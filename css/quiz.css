@@ -1,0 +1,43 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+}
+#startButton {
+    margin: 30px 0 0 15px;
+    width: 40%;
+}
+
+#main {
+    align-self: auto;
+}
+
+#nameID {
+    font-size: xx-large;
+    margin-left: 15px;
+}
+
+#quizBtn {
+    background-color:black;
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+}
+
+#highScores {
+    cursor: pointer;
+    color: black
+}
+
+#time {
+    margin-left: 75%;
+}
+
+ul {
+    margin-left: -35px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Coding Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../codequiz/css/quiz.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <a id="highScores">High Scores</a> 
+                <div class="col-md-2 center" id="time"></div>
+                <br><br><br><br><br>
+            </div>  
+        </div>
+        <div class="col-md-12 center" id="content">
+        
+            
+            <div class="col-md-6> 
+                <div class="row justify-content-end">
+                
+                <h1 id="header">Ready to display your true coding genius?</h1>
+
+            </div>
+
+            <div id="progressBar"></div>
+
+            <h7 id="main" class="row"></h7>
+            <br>
+
+            <div class="row justify-content-center">
+                <button type="button" id="startButton" class="btn btn-dark">Whatever it takes!</button>
+            </div>
+            
+            <div id="choices"></div>
+
+            <div class="row">
+                <!--Code for name id-->
+                <input type="text" name="name" id="nameID" placeholder="Enter name" class="col-md-4 d-none">
+                
+                <!--scores-->
+                <div id="finalScore" class="input-group input-group-sm mb-3 col-md-2 d-none">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Your score:</span>
+                    </div>
+
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+            
+                <button type="button" id="storeBtn" class="btn btn-dark d-none">Save Score
+
+                </button>
+            </div>
+
+            <h2 id="countdown"></h2>
+            <div id="quizContainer"></div>
+
+            <div id="scoresDisplay"><button class="d-none btn btn-dark" id="reStartBtn">Rematch</button></div>
+            <div id="results"></div>
+
+        </div>
+
+        <div class="col-2">
+            
+            <div class="col-md-1" id="response"></div>
+        </div>  
+
+    </div>
+
+    <script src="../codequiz/script.js"></script>
+
+</body>
+</html>
