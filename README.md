@@ -1,6 +1,6 @@
 # codequiz
 
-#Description
+# Description
 
 As part of the UCF coding bootcamp homework for week 4, the code quiz was designed to test your genius in the realm of syntax and divs. Do you have what it takes?
 
