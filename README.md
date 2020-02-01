@@ -18,7 +18,7 @@ Believe you me, one of the hardest parts of this project was trying to get every
 
 # Demo
 
-[Take the quiz here] (https://github.com/siryaw/codequiz)
+[Take the quiz here] (https://siryaw.github.io/codequiz/)
 
 # License
 
