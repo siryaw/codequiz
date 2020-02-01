@@ -1,6 +1,6 @@
 # codequiz
 
-![screenshot](codequiz/Screen Shot 2020-02-01 at 2.15.52 AM.png)
+![screenshot](screenshot.png)
 
 # Description
 
